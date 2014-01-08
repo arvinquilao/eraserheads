@@ -67,7 +67,7 @@ video {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Lato", "Helvetica", sans-serif;       
+    font-family: "ff-meta-web-pro", sans-serif;       
     
 }
 
@@ -88,22 +88,22 @@ h2 {
     margin-top: 1.25rem;
     margin-bottom:  0.5rem;
     
-    font-weight: 900;
+    font-weight: 700;
     
 }
 
 p {
-    font-family: "PT Serif", "Chaparral Pro", "Georgia", serif;
+    font-family: "ff-meta-serif-web-pro", "Georgia", serif;
     font-size: 1rem;
     line-height: 1.5;
     text-indent: 0;
     margin-top: 0;
     margin-bottom: 0.75rem;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .note p{
-    font-family: "PT Serif", "Chaparral Pro", "Georgia", serif;
+    font-family: "ff-meta-serif-web-pro", "Georgia", serif;
     font-size: 1.3rem;
     line-height: 1.5;
     text-indent: 0;
