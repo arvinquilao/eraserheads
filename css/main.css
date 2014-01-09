@@ -112,6 +112,42 @@ p {
 
 }
 
+.FlexEmbed {
+  display: block;
+  overflow: hidden;
+  position: relative;
+
+}
+
+.FlexEmbed:before {
+  content: "";
+  display: block;
+  width: 100%;
+}
+
+.FlexEmbed--16by9:before {
+  padding-bottom: 56.25%;
+}
+
+.CoverImage {
+  background-image:url(http://placeimg.com/1000/1000/arch);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto 1em;
+  text-align: center;
+  color: white;
+  min-height: 320px;
+
+}
+
+header {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.3);
+    
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
