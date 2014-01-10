@@ -130,15 +130,15 @@ p {
 }
 
 .CoverImage {
-  background-image:url(http://placeimg.com/1000/1000/arch);
+  background-image:url(../img/ely.jpg);
   background-position: 50%;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 auto 1em;
   text-align: center;
   color: white;
   min-height: 320px;
-
 }
 
 header {
