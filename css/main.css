@@ -103,12 +103,16 @@ p {
     font-weight: 500;
 }
 
-.note p{
-    font-family: "ff-meta-serif-web-pro", "Georgia", serif;
-    font-size: 1.3rem;
-    line-height: 1.5;
+.note {
+    font-family: "ff-meta-web-pro", sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.4;
     text-indent: 0;
     padding: 5% 0;
+    max-width: 90%;
+    margin: 0 auto;
+
+
 
 }
 
@@ -157,7 +161,7 @@ p {
 .CoverImage.Ely {
   margin-top: 0;
 }
-header {
+.title {
   position: absolute;
   top: 30%;
   width: 100%;
@@ -253,6 +257,7 @@ header {
       margin: 0 auto;
     }
 
+    
     .CoverImage {
   
   background-attachment: scroll;
