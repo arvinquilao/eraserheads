@@ -104,12 +104,11 @@ p {
 }
 
 .note {
-    font-family: "ff-meta-web-pro", sans-serif;
-    font-size: 1.25rem;
-    line-height: 1.4;
+    font-family: "ff-meta-serif-web-pro", sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.5;
     text-indent: 0;
     padding: 5% 0;
-    max-width: 90%;
     margin: 0 auto;
 
 
@@ -134,9 +133,8 @@ p {
 }
 
 .CoverImage {
-  /*background-image:url(../img/ely.jpg);*/
   background-position: center center;
- /* background-attachment: fixed;*/
+  background-attachment: scroll;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 auto 1em;
@@ -166,6 +164,14 @@ p {
   top: 30%;
   width: 100%;
   background-color: rgba(0,0,0,0.3);
+    
+}
+
+.full {
+  max-width: 100%;
+  width: 2560px;
+  height: auto;
+  padding-bottom: 0.75em;
     
 }
 /* ==========================================================================
@@ -256,13 +262,6 @@ p {
       padding: 0px 1em 0px 1em;
       margin: 0 auto;
     }
-
-    
-    .CoverImage {
-  
-  background-attachment: scroll;
-  
-}
   }
 
 @media screen and (min-width: 400px) {
@@ -303,6 +302,11 @@ p {
     line-height: 1.7;
    }
 
+.note {
+    
+    font-size: 1.6rem;
+    line-height: 1.4;
+    
 
 }
 
