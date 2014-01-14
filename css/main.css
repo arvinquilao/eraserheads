@@ -21,7 +21,7 @@ textarea {
 html {
     font-size: 1em;
     line-height: 1.4;
-    background-color: #f3f3f3;
+    background-color: #fff;
 }
 
 /*
@@ -84,11 +84,11 @@ h1 {
 
 
 h2 {
-    font-size: 1.3rem;
+    font-size: 1.618rem;
     line-height: 1.25;
     margin-top: 1.25rem;
     margin-bottom:  0.5rem;
-    text-transform: uppercase;
+   /* text-transform: uppercase;*/
     font-weight: 700;
     
 }
@@ -96,7 +96,7 @@ h2 {
 p {
     font-family: "ff-meta-serif-web-pro", "Georgia", serif;
     font-size: 1rem;
-    line-height: 1.5;
+    line-height: 1.4;
     text-indent: 0;
     margin-top: 0;
     margin-bottom: 0.75rem;
@@ -141,18 +141,18 @@ p {
   text-align: center;
   color: white;
   min-height: 320px;
-  margin: 2em 0;
+  
 }
 
-.Ely {
+.CoverImage--Ely {
   background-image:url(../img/ely.jpg);
 }
 
-.Markus {
+.CoverImage--Markus {
   background-image:url(../img/markus.jpg);
 }
 
-.Raims {
+.CoverImage--Raims {
   background-image:url(../img/raims.jpg);
 }
 
@@ -174,6 +174,25 @@ p {
   padding-bottom: 0.75em;
     
 }
+
+.pull-quote p{
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  color:#ff9900;
+  font-family: "ff-meta-web-pro", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-style: italic;
+  text-transform: uppercase;
+  line-height: 1.3;
+  text-indent: 0;
+  padding-bottom: 0.75em;
+ 
+
+
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
