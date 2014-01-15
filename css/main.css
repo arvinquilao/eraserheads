@@ -19,7 +19,7 @@ textarea {
 }
 
 html {
-    font-size: 1em;
+    font-size: 100%;
     line-height: 1.4;
     background-color: #fff;
 }
@@ -85,7 +85,7 @@ h1 {
 
 
 h2 {
-    font-size: 1.618rem;
+    font-size: 1.33rem;
     line-height: 1.25;
     margin-top: 1.25rem;
     margin-bottom:  0.5rem;
@@ -95,7 +95,7 @@ h2 {
 }
 
 p {
-    font-family: "ff-meta-serif-web-pro", "Georgia", serif;
+    font-family: "ff-meta-serif-web-pro", serif;
     font-size: 1rem;
     line-height: 1.4;
     text-indent: 0;
@@ -105,7 +105,7 @@ p {
 }
 
 .note {
-    font-family: "ff-meta-serif-web-pro", sans-serif;
+    font-family: "ff-meta-serif-web-pro", serif;
     font-size: 1.3rem;
     line-height: 1.5;
     text-indent: 0;
@@ -182,7 +182,7 @@ p {
   text-align: left;
   color:#444;
   font-family: "ff-meta-web-pro-condensed", sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.618rem;
   font-weight: 700;
   /*font-style: italic;*/
   text-transform: uppercase;
@@ -320,8 +320,11 @@ p {
 
    .pull-quote {
     max-width: 75%;
+        
+   }
+
+   .pull-quote p {
     text-align: center;
-    
    }
 
    p {
