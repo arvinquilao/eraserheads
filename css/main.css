@@ -104,6 +104,10 @@ p {
     font-weight: 500;
 }
 
+q {
+  font-style: italic;
+}
+
 .note {
     font-family: "ff-meta-serif-web-pro", serif;
     font-size: 1.3rem;
