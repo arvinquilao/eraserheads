@@ -22,6 +22,7 @@ html {
     font-size: 100%;
     line-height: 1.4;
     background-color: #fff;
+  /*   background-image: url(http://basehold.it/i/24); // 24px baseline */
 }
 
 /*
@@ -85,11 +86,11 @@ h1 {
 
 
 h2 {
-    font-size: 1.33rem;
+    font-size: 1.414rem;
     line-height: 1.25;
-    margin-top: 1.25rem;
-    margin-bottom:  0.5rem;
-   /* text-transform: uppercase;*/
+    margin-top: 1.125rem;
+    margin-bottom:  0.375rem;
+    /*text-transform: uppercase;*/
     font-weight: 700;
     
 }
@@ -97,11 +98,15 @@ h2 {
 p {
     font-family: "ff-meta-serif-web-pro", serif;
     font-size: 1rem;
-    line-height: 1.4;
+    line-height: 1.5;
     text-indent: 0;
     margin-top: 0;
     margin-bottom: 0.75rem;
     font-weight: 500;
+}
+
+p:last-child {
+    margin-bottom: 0;
 }
 
 q {
@@ -110,7 +115,7 @@ q {
 
 .note {
     font-family: "ff-meta-serif-web-pro", serif;
-    font-size: 1.3rem;
+    font-size: 1.414rem;
     line-height: 1.5;
     text-indent: 0;
     padding: 5% 0;
@@ -142,7 +147,7 @@ q {
   background-attachment: scroll;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 1.618em auto 1.618em;
+  margin: 1.5em auto;
   text-align: center;
   color: white;
   min-height: 320px;
@@ -192,10 +197,10 @@ q {
   text-transform: uppercase;
   line-height: 1.3;
   
-  padding: .618rem 0;
+  padding: .75rem 0;
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
-  margin: 1.618rem 0;
+  margin: 1.5rem 0;
 }
 
 /* ==========================================================================
@@ -329,6 +334,10 @@ q {
 
    .pull-quote p {
     text-align: center;
+   }
+
+   h2 {
+    font-size: 1.618em;
    }
 
    p {
