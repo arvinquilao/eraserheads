@@ -295,9 +295,11 @@ q {
 
 @media screen and (min-width: 400px) {
     
-    html         { font-size:105%; }
+    html         { font-size:100%; }
    .wrapper, .pull-quote {
-    max-width: 22rem;
+    max-width: 25rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
    
    }
 
@@ -308,10 +310,11 @@ q {
 
 @media screen and (min-width: 500px) {
     
-    html         { font-size:115%; }
+    html         { font-size:100%; }
    .wrapper {
-    max-width: 22rem;
-   
+    max-width: 25rem;
+    padding-left: 0;
+    padding-right: 0;
    }
 
    p {
@@ -319,11 +322,20 @@ q {
    }
 }
 
+
+@media screen and (min-width: 600px) {
+    
+    html         { font-size:110%; }
+   .wrapper, .pull-quote {
+    max-width: 26rem;
+    
+   }
+
 @media screen and (min-width: 700px) {
     
     html         { font-size:120%; }
    .wrapper {
-    max-width: 25rem;
+    max-width: 28rem;
     
    }
 
@@ -356,7 +368,7 @@ q {
 
 @media screen and (min-width: 1000px) {
     
-    html         { font-size:130%; }
+    html         { font-size:125%; }
    .wrapper {
     max-width: 28rem; 
 
