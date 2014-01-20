@@ -288,7 +288,7 @@ q {
     html        { font-size:100%; }
     .wrapper, .pull-quote {
       max-width: 20rem;
-      padding: 0px 1em 0px 1em;
+      padding: 0px 1.2em 0px 1.2em;
       margin: 0 auto;
     }
   }
