@@ -112,7 +112,11 @@ p:last-child {
 
 q {
   font-style: italic;
+  quotes: '“' '”' '‘' '’';
 }
+
+q:before { content: '\201C'; content: open-quote; }
+q:after { content: '\201D'; content: close-quote; }
 
 .note {
     font-family: "ff-meta-serif-web-pro", serif;
