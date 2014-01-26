@@ -23,6 +23,7 @@ html {
     line-height: 1.4;
     background-color: #fff;
   /*   background-image: url(http://basehold.it/i/24); // 24px baseline */
+    -webkit-font-smoothing: antialiased;
 }
 
 /*
@@ -327,6 +328,7 @@ q {
     
     html         { font-size:110%; }
    .wrapper, .pull-quote {
+     
     max-width: 26rem;
     
    }
@@ -335,6 +337,7 @@ q {
     
     html         { font-size:120%; }
    .wrapper {
+
     max-width: 28rem;
     
    }
@@ -345,7 +348,8 @@ q {
    }
 
    .pull-quote p {
-    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
    }
 
    h2 {
