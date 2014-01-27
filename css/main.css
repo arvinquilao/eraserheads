@@ -173,6 +173,7 @@ q:after { content: '\201D'; content: close-quote; }
 
 .CoverImage--Ely {
   margin-top: 0;
+  height: 100vh;
 }
 .title {
   position: absolute;
@@ -302,6 +303,7 @@ q:after { content: '\201D'; content: close-quote; }
     
     html         { font-size:100%; }
    .wrapper, .pull-quote {
+    width: 70%;
     max-width: 25rem;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -332,29 +334,19 @@ q:after { content: '\201D'; content: close-quote; }
     
     html         { font-size:110%; }
    .wrapper, .pull-quote {
-     
-    max-width: 26rem;
+   max-width: 26rem;
     
    }
 
 @media screen and (min-width: 700px) {
     
     html         { font-size:120%; }
-   .wrapper {
+   .wrapper, .pull-quote {
 
     max-width: 28rem;
     
    }
 
-   .pull-quote {
-    max-width: 75%;
-        
-   }
-
-   .pull-quote p {
-    padding-left: 1em;
-    padding-right: 1em;
-   }
 
    h2 {
     font-size: 1.618em;
@@ -380,6 +372,16 @@ q:after { content: '\201D'; content: close-quote; }
    .wrapper {
     max-width: 28rem; 
 
+   }
+
+   .pull-quote {
+    max-width: 75%;
+        
+   }
+
+   .pull-quote p {
+    padding-left: 1em;
+    padding-right: 1em;
    }
 
    p {
