@@ -120,14 +120,19 @@ q:after { content: '\201D'; content: close-quote; }
 
 .note {
     font-family: "ff-meta-serif-web-pro", serif;
-    font-size: 1.414rem;
+    font-size: 1em;
     line-height: 1.5;
     text-indent: 0;
     padding: 5% 0;
     margin: 0 auto;
+}
 
-
-
+.note span {
+  font-size: 3.25em;
+  float: left;
+  line-height: 0.8;
+  padding-right: 0.05em;
+  padding-top: 0.10em;
 }
 
 .FlexEmbed {
@@ -361,10 +366,10 @@ q:after { content: '\201D'; content: close-quote; }
     line-height: 1.7;
    }
 
-.note {
+/*.note {
     
     font-size: 1.6rem;
-    line-height: 1.4;
+    line-height: 1.4;*/
     
 
 }
