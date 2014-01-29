@@ -320,8 +320,12 @@ q:after { content: '\201D'; content: close-quote; }
    
    }
 
-   p {
+   p, .note {
     line-height: 1.6;
+   }
+
+   .note span {
+    padding-top: 0.15em;
    }
 }
 
@@ -334,9 +338,7 @@ q:after { content: '\201D'; content: close-quote; }
     padding-right: 0;
    }
 
-   p {
-    line-height: 1.6;
-   }
+  
 }
 
 
@@ -362,15 +364,13 @@ q:after { content: '\201D'; content: close-quote; }
     font-size: 1.618em;
    }
 
-   p {
+   p, .note {
     line-height: 1.7;
    }
-
-/*.note {
     
-    font-size: 1.6rem;
-    line-height: 1.4;*/
-    
+   .note span {
+    font-size: 3.4em;
+   }
 
 }
 
