@@ -128,11 +128,11 @@ q:after { content: '\201D'; content: close-quote; }
 }
 
 .note span {
-  font-size: 3.25em;
+  font-size: 5.25em;
   float: left;
-  line-height: 0.8;
-  padding-right: 0.05em;
-  padding-top: 0.10em;
+  line-height: 0.5;
+  padding-right: 0.03em;
+  padding-top: 0.25em;
 }
 
 .FlexEmbed {
@@ -324,9 +324,10 @@ q:after { content: '\201D'; content: close-quote; }
     line-height: 1.6;
    }
 
-   .note span {
-    padding-top: 0.15em;
-   }
+  .note span {
+  font-size: 5.5em;
+  }
+
 }
 
 @media screen and (min-width: 500px) {
@@ -350,6 +351,8 @@ q:after { content: '\201D'; content: close-quote; }
     
    }
 
+  
+}
 @media screen and (min-width: 700px) {
     
     html         { font-size:120%; }
@@ -369,7 +372,7 @@ q:after { content: '\201D'; content: close-quote; }
    }
     
    .note span {
-    font-size: 3.4em;
+    font-size: 5.75em;
    }
 
 }
@@ -396,6 +399,10 @@ q:after { content: '\201D'; content: close-quote; }
 
    p {
     line-height: 1.7;
+   }
+
+   .note span {
+    font-size: 5.85em;
    }
 
    .CoverImage {
