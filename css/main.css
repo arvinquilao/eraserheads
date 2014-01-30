@@ -405,12 +405,6 @@ q:after { content: '\201D'; content: close-quote; }
     font-size: 5.85em;
    }
 
-   .CoverImage {
-  
-  background-attachment: fixed;
-  
-  }
-
 }
 
 @media screen and (min-width: 1200px) {
