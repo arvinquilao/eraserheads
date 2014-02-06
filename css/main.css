@@ -22,6 +22,11 @@ html {
     font-size: 100%;
     line-height: 1.4;
     background-color: #fff;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "kern";
+  -webkit-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern=1";
 }
 
 /*
