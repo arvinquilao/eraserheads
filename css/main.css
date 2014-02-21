@@ -126,7 +126,7 @@ q:after { content: '\201D'; content: close-quote; }
   float: left;
   line-height: 0.5;
   padding-right: 0.03em;
-  padding-top: 0.25em;
+  padding-top: 0.23em;
 }
 
 .FlexEmbed {
@@ -268,6 +268,10 @@ q:after { content: '\201D'; content: close-quote; }
     width: 75%;
     max-width: 27.5rem;
    }
+
+   .note span {
+      padding-top: 0.25em;
+    }
 
   
 }
