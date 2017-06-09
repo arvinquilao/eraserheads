@@ -175,7 +175,7 @@ q:after { content: '\201D'; content: close-quote; }
 
 .CoverImage--Ely {
   margin-top: 0;
-  min-height: 320px;
+  height: 100vh;
 }
 
  .title {
