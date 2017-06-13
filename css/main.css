@@ -112,16 +112,7 @@ q {
 q:before { content: '\201C'; content: open-quote; }
 q:after { content: '\201D'; content: close-quote; }
 
-.note {
-    font-family: "ff-meta-serif-web-pro", serif;
-    font-size: 1.125em;
-    line-height: 1.5;
-    text-indent: 0;
-    padding: 1.5em 0;
-    margin: 0 auto;
-}
-
-.note span {
+.drop-cap {
   font-size: 5.75em;
   font-family: "ff-meta-web-pro", sans-serif;
   font-weight: 700;
@@ -241,13 +232,9 @@ q:after { content: '\201D'; content: close-quote; }
     padding-right: 0;
    }
 
-   p, .note {
+   p {
     line-height: 1.6;
     margin-bottom: 0.8em; /* 1.6 / 2 */
-   }
-
-   .note {
-    padding: 1.6em 0;
    }
 
   h2 {
@@ -286,16 +273,12 @@ q:after { content: '\201D'; content: close-quote; }
     padding-bottom:  0.262669962em; /* 0.425 / 1.618em */
    }
 
-   p, .note {
+   p {
     line-height: 1.7;
     margin-bottom: 0.85em; /* 1.7 / 2 */
    }
-
-  .note {
-    padding: 1.7em 0;
-   }
     
-   .note span {
+   .drop-cap {
     font-size: 6em;
    }
 
