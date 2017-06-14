@@ -335,7 +335,7 @@ q:after { content: '\201D'; content: close-quote; }
    }
 
    .pull-quote {
-    max-width: 75%;
+    max-width: 70rem;
         
    }
 
