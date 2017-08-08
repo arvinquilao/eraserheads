@@ -227,7 +227,7 @@ q:after { content: '\201D'; content: close-quote; }
   font-weight: 700;
   line-height: 1.3;
   padding: 0.463535229em 0; /* 0.75 / 1.618em */
-  border-top: 1px solid #222;
+  border-top: 8px solid #222;
   border-bottom: 1px solid #222;
   margin: 0.927070457em 0; /* 1.5 / 1.618em */
 }
