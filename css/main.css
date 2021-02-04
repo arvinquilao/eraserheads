@@ -128,10 +128,10 @@ h2 {
 p {
     font-family: "ff-meta-serif-web-pro", serif;
     font-size: 1.125em;
-    line-height: 1.7;
+    line-height: 1.6;
     text-indent: 0;
     margin-top: 0;
-    margin-bottom: .85em; /* 1.7 / 2 (one-half of line height) */
+    margin-bottom: .8em; /* 1.7 / 2 (one-half of line height) */
     font-weight: 500;
 }
 
@@ -152,7 +152,7 @@ q:after { content: '\201D'; content: close-quote; }
   font-family: "ff-meta-web-pro", sans-serif;
   font-weight: 700;
   float: left;
-  line-height: 0.55;
+  line-height: 0.45;
   margin-left: -0.05em;
   padding-right: 0.06em;
   padding-top: 0.1em;
@@ -270,6 +270,10 @@ q:after { content: '\201D'; content: close-quote; }
    p {
     line-height: 1.7;
     margin-bottom: 0.85em; /* 1.7 / 2 */
+   }
+
+   .drop-cap {
+    line-height: 0.55;
    }
 
   h2 {
