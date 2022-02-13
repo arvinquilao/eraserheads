@@ -121,8 +121,8 @@ h1 {
 h2 {
     font-size: 1.414em;
     line-height: 1.06082037; /* 1.5 /1.414 */
-    padding-top: 0.795615275em; /* 1.125 / 1.414em */
-    padding-bottom:  0.265205091em; /* 0.375 / 1.414em */
+    padding-top: 1.595615275em; /* 1.125 / 1.414em */
+    padding-bottom:  1.065205091em; /* 0.375 / 1.414em */
     margin: 0;
     font-weight: 700; 
 }
@@ -280,8 +280,8 @@ q:after { content: '\201D'; content: close-quote; }
 
   h2 {
     line-height: 1.202263083; /* 1.7 / 1.414 */
-    padding-top: 0.848656294em; /* 1.2 / 1.414em */
-    padding-bottom:  0.282885431em; /* 0.4 / 1.414em */
+    padding-top: 1.698656294em; /* 1.2 / 1.414em */
+    padding-bottom:  1.082885431em; /* 0.4 / 1.414em */
    }
 
   .pull-quote p {
@@ -309,8 +309,8 @@ q:after { content: '\201D'; content: close-quote; }
    h2 {
     font-size: 1.618em;
     line-height: 1.050679851; /* 1.7 / 1.618 */
-    padding-top: 0.788009888em; /* 1.275 / 1.618em */
-    padding-bottom:  0.262669962em; /* 0.425 / 1.618em */
+    padding-top: 1.638009888em; /* 1.275 / 1.618em */
+    padding-bottom:  1.062669962em; /* 0.425 / 1.618em */
    }
 
    p {
