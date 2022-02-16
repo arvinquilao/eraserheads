@@ -101,12 +101,11 @@ html {
 }
 
 article:last-child {
-  margin-bottom: 2em;
+    margin-bottom: 2em;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "ff-meta-headline-web-pro", sans-serif;       
-    
 }
 
 h1 {    
@@ -116,7 +115,6 @@ h1 {
     font-size: 8vw;
     line-height: 1.25;
 }
-
 
 h2 {
     font-size: 1.414em;
@@ -142,96 +140,95 @@ p:last-child {
 }
 
 q {
-  font-style: italic;
-  quotes: '“' '”' '‘' '’';
+    font-style: italic;
+    quotes: '“' '”' '‘' '’';
 }
 
 q:before { content: '\201C'; content: open-quote; }
 q:after { content: '\201D'; content: close-quote; }
 
 .drop-cap {
-  font-size: 5.85em;
-  font-family: "ff-meta-headline-web-pro", sans-serif;
-  font-weight: 700;
-  float: left;
-  line-height: 0.70;
-  margin-left: -0.05em;
-  padding-right: 0.06em;
-  padding-top: 0.10em;
+    font-size: 5.85em;
+    font-family: "ff-meta-headline-web-pro", sans-serif;
+    font-weight: 700;
+    float: left;
+    line-height: 0.70;
+    margin-left: -0.05em;
+    padding-right: 0.06em;
+    padding-top: 0.10em;
 }
 
 .FlexEmbed {
-  display: block;
-  overflow: hidden;
-  position: relative;
+    display: block;
+    overflow: hidden;
+    position: relative;
 
 }
 
 .FlexEmbed:before {
-  content: "";
-  display: block;
-  width: 100%;
+    content: "";
+    display: block;
+    width: 100%;
 }
 
 .FlexEmbed--16by9:before {
-  padding-bottom: 56.25%;
+    padding-bottom: 56.25%;
 }
 
 .CoverImage {
-  background-position: center center;
-  background-attachment: scroll;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 1.5em auto;
-  text-align: center;
-  color: white;
-  min-height: 320px;
-  
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1.5em auto;
+    text-align: center;
+    color: white;
+    min-height: 320px;
 }
 
 .CoverImage--Ely {
-  background-image:url(../img/ely.jpg);
+    background-image:url(../img/ely.jpg);
 }
 
 .CoverImage--Markus {
-  background-image:url(../img/markus.jpg);
+    background-image:url(../img/markus.jpg);
 }
 
 .CoverImage--Raims {
-  background-image:url(../img/raims.jpg);
+    background-image:url(../img/raims.jpg);
 }
 
 .CoverImage--Ely {
-  margin-top: 0;
-  height: 100vh;
+    margin-top: 0;
+    height: 100vh;
 }
 
- .title {
-  position: absolute;
-  top: 30%;
-  width: 100%;
-  background-color: rgba(0,0,0,0.3);   
+.title {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);   
 }
 
 .full {
-  max-width: 100%;
-  width: 2560px;
-  height: auto;
-  padding-bottom: 0.75em;
+    max-width: 100%;
+    width: 2560px;
+    height: auto;
+    padding-bottom: 0.75em;
 }
 
 
 .pull-quote p {  
-  text-align: left;
-  color:#222;
-  font-family: "ff-meta-serif-web-pro", serif;
-  font-size: 1.618em;
-  font-weight: 700;
-  line-height: 1.4;
-  padding: 0.463535229em 0; /* 0.75 / 1.618em */
-  border-top: 8px solid #222;
-  border-bottom: 1px solid #222;
-  margin: 0.927070457em 0; /* 1.5 / 1.618em */
+    text-align: left;
+    color:#222;
+    font-family: "ff-meta-serif-web-pro", serif;
+    font-size: 1.618em;
+    font-weight: 700;
+    line-height: 1.4;
+    padding: 0.463535229em 0; /* 0.75 / 1.618em */
+    border-top: 8px solid #222;
+    border-bottom: 1px solid #222;
+    margin: 0.927070457em 0; /* 1.5 / 1.618em */
 }
 
 .pull-quote p.quote {
@@ -248,94 +245,102 @@ q:after { content: '\201D'; content: close-quote; }
 @media screen and (min-width:1px) {
 
     .wrapper, .pull-quote {
-      max-width: 20rem;
-      padding: 0 1.2em;
-      margin: 0 auto;
+        max-width: 20rem;
+        padding: 0 1.2em;
+        margin: 0 auto;
     }
 
-  }
+}
 
 @media screen and (min-width: 400px) {
     
     .wrapper, .pull-quote {
-    width: 70%;
-    max-width: 25rem;
-    padding-left: 0;
-    padding-right: 0;
+        width: 70%;
+        max-width: 25rem;
+        padding-left: 0;
+        padding-right: 0;
    }
 
-   p {
-    line-height: 1.7;
-    margin-bottom: 0.85em; /* 1.7 / 2 */
+    p {
+        line-height: 1.7;
+        margin-bottom: 0.85em; /* 1.7 / 2 */
    }
 
-  h2 {
-    line-height: 1.202263083; /* 1.7 / 1.414 */
-    padding-top: 1.698656294em; /* 1.2 / 1.414em */
-    padding-bottom:  0.582885431em; /* 0.4 / 1.414em */
+    h2 {
+        line-height: 1.202263083; /* 1.7 / 1.414 */
+        padding-top: 1.698656294em; /* 1.2 / 1.414em */
+        padding-bottom:  0.582885431em; /* 0.4 / 1.414em */
    }
 
-  .pull-quote p {
-    padding: 0.494437577em 0; /* 0.8 / 1.618em */
-    margin: 1.618em 0;
+    .pull-quote p {
+        padding: 0.494437577em 0; /* 0.8 / 1.618em */
+        margin: 1.618em 0;
+    }
 }
 
 @media screen and (min-width: 600px) {
     
-    body  { font-size:110%; }
-   .wrapper, .pull-quote {
-    width: 75%;
-    max-width: 27.5rem;
-   }
+    body {
+        font-size:110%;
+    }
+
+    .wrapper, .pull-quote {
+        width: 75%;
+        max-width: 27.5rem;
+    }
   
 }
+
 @media screen and (min-width: 700px) {
     
-    body  { font-size:120%; }
+    body {
+        font-size:120%;
+    }
+
    .wrapper, .pull-quote {
-    max-width: 30rem;
+        max-width: 30rem;
    }
 
+    h2 {
+        font-size: 1.618em;
+        line-height: 1.050679851; /* 1.7 / 1.618 */
+        padding-top: 1.638009888em; /* 1.275 / 1.618em */
+        padding-bottom:  0.562669962em; /* 0.425 / 1.618em */
+    }
 
-   h2 {
-    font-size: 1.618em;
-    line-height: 1.050679851; /* 1.7 / 1.618 */
-    padding-top: 1.638009888em; /* 1.275 / 1.618em */
-    padding-bottom:  0.562669962em; /* 0.425 / 1.618em */
-   }
-
-   p {
-    line-height: 1.7;
-    margin-bottom: 0.85em; /* 1.7 / 2 */
-   }
+    p {
+        line-height: 1.7;
+        margin-bottom: 0.85em; /* 1.7 / 2 */
+    }
     
-   .drop-cap {
-    font-size: 6em;
-   }
+    .drop-cap {
+        font-size: 6em;
+    }
 
-  .pull-quote p {
-    padding: 0.525339925em 0; /* 0.85 / 1.618em */
-    margin: 1.050679851em 0; /* 1.7 / 1.618em */
-  }
+    .pull-quote p {
+        padding: 0.525339925em 0; /* 0.85 / 1.618em */
+        margin: 1.050679851em 0; /* 1.7 / 1.618em */
+    }
 
 }
 
 @media screen and (min-width: 900px) {
     
-    body  { font-size:125%; }
-   .wrapper {
-    max-width: 40rem; 
+    body {
+        font-size:125%;
+    }
 
+   .wrapper {
+        max-width: 40rem;
    }
 
    .pull-quote {
-    max-width: 50rem;
-        
+        max-width: 50rem;   
    }
 
    .pull-quote p {
-    padding-left: 1em;
-    padding-right: 1em;
+        padding-left: 1em;
+        padding-right: 1em;
    }
 
 }
