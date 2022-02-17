@@ -221,7 +221,7 @@ q:after { content: '\201D'; content: close-quote; }
 .pull-quote p {  
     text-align: left;
     color:#222;
-    font-family: "ff-meta-serif-web-pro", serif;
+    font-family: "ff-meta-headline-web-pro", serif;
     font-size: 1.618em;
     font-weight: 700;
     line-height: 1.4;
