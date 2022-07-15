@@ -235,6 +235,11 @@ q:after { content: '\201D'; content: close-quote; }
     text-indent: -0.45em;
 }
 
+.small-caps {
+    font-family: "ff-meta-serif-sc-web-pro", serif;
+    text-transform: lowercase;
+}
+
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
