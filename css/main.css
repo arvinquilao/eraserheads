@@ -158,6 +158,21 @@ q:after { content: '\201D'; content: close-quote; }
     padding-top: 0.10em;
 }
 
+.intro, .parental-advisory, .flunk-out {
+    background-color: #1d2228;
+    color: #ededed;
+}
+
+.intro {
+    padding: 8em 0;
+}
+
+.parental-advisory, .flunk-out {
+    margin-top: 3em;
+    padding-top: 3em;
+    padding-bottom: 5em;
+}
+
 .FlexEmbed {
     display: block;
     overflow: hidden;
@@ -188,6 +203,7 @@ q:after { content: '\201D'; content: close-quote; }
 
 .CoverImage--Ely {
     background-image:url(../img/ely.jpg);
+    margin-bottom: 0;
 }
 
 .CoverImage--Markus {
