@@ -266,9 +266,7 @@ q:after { content: '\201D'; content: close-quote; }
 @media screen and (min-width:1px) {
 
     .wrapper, .pull-quote {
-        /*max-width: 20rem;*/
-        width: 85%;
-        padding: 0 1.2em;
+        padding: 0 1.25em;
         margin: 0 auto;
     }
 
