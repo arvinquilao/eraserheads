@@ -155,7 +155,7 @@ q:after { content: '\201D'; content: close-quote; }
     line-height: 0.65;
     margin-left: -0.05em;
     padding-right: 0.06em;
-    padding-top: 0.025em;
+    padding-top: 0.10em;
 }
 
 .intro, .parental-advisory, .flunk-out {
